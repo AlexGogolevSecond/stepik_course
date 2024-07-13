@@ -26,17 +26,21 @@ package main
 import "fmt"
 
 func main(){
-	var n string
-	fmt.Scan(&n)
+	var s string
+	fmt.Scan(&s)
 
 	var a, b, c bool
 
-	if a != b && a != c && b != c {
-		fmt.Println("YES")
-	} else {
-		fmt.Println("NO")
-	}
+	a = s[0] == s[1]
+	b = s[0] == s[2]
+	c = s[1] == s[2]
 
+	
+	if a || b || c {
+		fmt.Println("NO")
+	} else {
+		fmt.Println("YES")
+	}
 }
 
 
