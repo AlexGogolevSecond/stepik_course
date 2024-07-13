@@ -3,6 +3,18 @@ package main
 import "fmt"
 
 func main(){
+
+	var a = 5
+	var b = 4
+
+	if a < b {
+		fmt.Println("a < b")
+	} else if a > b {
+		fmt.Println("a > b")
+	} else {
+		fmt.Println("a == b")
+	}
+
 	var i int
 	fmt.Scan(&i)
 	switch i {
