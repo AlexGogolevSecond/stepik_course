@@ -22,7 +22,7 @@ func main(){
 	//аналог цикла while !!!
 	var k = 1
 	for k < 10 {
-		fmt.Println(k * k)
+		fmt.Println(k)
 		k++
 	}
 
