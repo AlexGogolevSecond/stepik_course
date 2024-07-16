@@ -14,4 +14,5 @@ func main(){
 	s2 = "Sammy likes the `fmt` package for formatting strings.."
 	fmt.Println(s2)  // Sammy likes the `fmt` package for formatting strings..
 
+	fmt.Println("Sammy says, \"Hello!\"")  // Sammy says, "Hello!"
 }
